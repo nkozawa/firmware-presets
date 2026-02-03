@@ -32,6 +32,7 @@ set ledstrip_profile = RACE
         set ledstrip_race_color = BLACK
     #$ OPTION END
 
+#$ OPTION_GROUP END
 
 # --- Set LED ---
 
