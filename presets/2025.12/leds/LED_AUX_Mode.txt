@@ -13,7 +13,7 @@
 #--- Set up Race mode ---
 
 feature LED_STRIP
-set ledstrip_profile = RACE
+set ledstrip_profile = STATUS
 
 #--- Set up AUX ---
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up AUX
