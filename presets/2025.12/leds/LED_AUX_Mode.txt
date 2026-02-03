@@ -1,4 +1,4 @@
-#$ TITLE: LED Race Profile 
+#$ TITLE: LED AUX mod
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: LEDS
 #$ STATUS: COMMUNITY
@@ -6,7 +6,7 @@
 #$ AUTHOR: KozakFPV
 
 #$ DESCRIPTION: 
-#$ DESCRIPTION: 
+#$ DESCRIPTION:
 #$ DESCRIPTION:
 
 
@@ -15,28 +15,43 @@
 feature LED_STRIP
 set ledstrip_profile = RACE
 
-#--- Set up Race mode color ---
-#$ OPTION_GROUP BEGIN: Set up color
-    #$ OPTION BEGIN (UNCHECKED): RED
-        set ledstrip_race_color = RED
+#--- Set up AUX ---
+#$ OPTION_GROUP BEGIN: Set up AUX
+
+    #$ OPTION BEGIN (UNCHECKED): AUX6
+	mode_color 6 0 10
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): GREEN
-        set ledstrip_race_color = GREEN
+    #$ OPTION BEGIN (CHECKED): AUX7
+	mode_color 7 0 10
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): BLUE
-        set ledstrip_race_color = BLUE
+    #$ OPTION BEGIN (UNCHECKED): AUX8
+	mode_color 8 0 10
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): YELLOW
-        set ledstrip_race_color = YELLOW
+    #$ OPTION BEGIN (UNCHECKED): AUX9
+	mode_color 9 0 10
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): BLACK(VTX interlock)
-        set ledstrip_race_color = BLACK
+    #$ OPTION BEGIN (UNCHECKED): AUX10
+	mode_color 10 0 10
     #$ OPTION END
 
 #$ OPTION_GROUP END
 
-# --- Set LED ---
+#--- Set up AUX ---
+#$ OPTION_GROUP BEGIN: Set up Color
 
+    #$ OPTION BEGIN (UNCHECKED): HUE 0 to 240 (RGB)
+	color 13 0,0,255
+	color 14 120,0,255
+	color 15 240,0,255
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): HUE 0 to 285 (Rainbow)
+	color 13 0,0,255
+	color 14 143,0,255
+	color 15 285,0,255
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+# --- Set LED ---
 #$ OPTION_GROUP BEGIN: Set up number of LEDS
     
     #$ OPTION BEGIN (UNCHECKED): Set 32 LEDs
