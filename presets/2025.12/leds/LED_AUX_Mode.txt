@@ -39,7 +39,7 @@ set ledstrip_profile = RACE
 #--- Set up AUX ---
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up Color
 
-    #$ OPTION BEGIN (UNCHECKED): HUE 0 to 240 (RGB)
+    #$ OPTION BEGIN (CHECKED): HUE 0 to 240 (RGB)
 	color 13 0,0,255
 	color 14 120,0,255
 	color 15 240,0,255
@@ -89,7 +89,7 @@ set ledstrip_profile = RACE
         led 31 15,1::CT:14
     #$ OPTION END
     
-    #$ OPTION BEGIN (UNCHECKED): Set 64 LEDs
+    #$ OPTION BEGIN (CHECKED): Set 64 LEDs
         led 0 0,0::CT:14
         led 1 1,0::CT:14
         led 2 2,0::CT:14
