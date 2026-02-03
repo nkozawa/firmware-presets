@@ -16,7 +16,7 @@ feature LED_STRIP
 set ledstrip_profile = RACE
 
 #--- Set up AUX ---
-#$ OPTION_GROUP BEGIN: Set up AUX
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up AUX
 
     #$ OPTION BEGIN (UNCHECKED): AUX6
 	mode_color 6 0 10
@@ -37,7 +37,7 @@ set ledstrip_profile = RACE
 #$ OPTION_GROUP END
 
 #--- Set up AUX ---
-#$ OPTION_GROUP BEGIN: Set up Color
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up Color
 
     #$ OPTION BEGIN (UNCHECKED): HUE 0 to 240 (RGB)
 	color 13 0,0,255
@@ -52,7 +52,7 @@ set ledstrip_profile = RACE
 #$ OPTION_GROUP END
 
 # --- Set LED ---
-#$ OPTION_GROUP BEGIN: Set up number of LEDS
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up number of LEDS
     
     #$ OPTION BEGIN (UNCHECKED): Set 32 LEDs
         led 0 0,0::CT:14
