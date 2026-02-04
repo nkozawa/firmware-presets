@@ -5,9 +5,9 @@
 #$ KEYWORDS: leds, race
 #$ AUTHOR: KozakFPV
 
-#$ DESCRIPTION: 
-#$ DESCRIPTION: 
-#$ DESCRIPTION:
+#$ DESCRIPTION: This setting is for using the LED in RACE mode.
+#$ DESCRIPTION: Please refer to the article below.
+#$ DESCRIPTION: https://www.nkozawa.com/blog/archives/8643
 
 
 #--- Set up Race mode ---

@@ -5,9 +5,9 @@
 #$ KEYWORDS: leds, race
 #$ AUTHOR: KozakFPV
 
-#$ DESCRIPTION: 
-#$ DESCRIPTION:
-#$ DESCRIPTION:
+#$ DESCRIPTION: This setting is for continuously changing the LED color using S1 or similar components.
+#$ DESCRIPTION: Please refer to the article below.
+#$ DESCRIPTION: https://www.nkozawa.com/blog/archives/8171
 
 
 #--- Set up Race mode ---
