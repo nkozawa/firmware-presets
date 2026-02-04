@@ -19,19 +19,19 @@ set ledstrip_profile = STATUS
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up AUX
 
     #$ OPTION BEGIN (UNCHECKED): AUX6
-	mode_color 6 0 10
+	mode_color 7 0 9
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): AUX7
 	mode_color 7 0 10
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): AUX8
-	mode_color 8 0 10
+	mode_color 7 0 11
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): AUX9
-	mode_color 9 0 10
+	mode_color 7 0 12
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): AUX10
-	mode_color 10 0 10
+	mode_color 7 0 13
     #$ OPTION END
 
 #$ OPTION_GROUP END
