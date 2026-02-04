@@ -16,8 +16,8 @@ feature LED_STRIP
 set ledstrip_profile = RACE
 
 #--- Set up Race mode color ---
-#$ OPTION_GROUP BEGIN: Set up color
-    #$ OPTION BEGIN (UNCHECKED): RED
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up color
+    #$ OPTION BEGIN (CHECKED): RED
         set ledstrip_race_color = RED
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): GREEN
@@ -37,7 +37,7 @@ set ledstrip_profile = RACE
 
 # --- Set LED ---
 
-#$ OPTION_GROUP BEGIN: Set up number of LEDS
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Set up number of LEDS
     
     #$ OPTION BEGIN (UNCHECKED): Set 32 LEDs
         led 0 0,0::CT:14
@@ -74,7 +74,7 @@ set ledstrip_profile = RACE
         led 31 15,1::CT:14
     #$ OPTION END
     
-    #$ OPTION BEGIN (UNCHECKED): Set 64 LEDs
+    #$ OPTION BEGIN (CHECKED): Set 64 LEDs
         led 0 0,0::CT:14
         led 1 1,0::CT:14
         led 2 2,0::CT:14
