@@ -150,7 +150,7 @@
   "presets": [
     {
       "fullPath": "presets/2025.12/leds/LED_AUX_Mode.txt",
-      "hash": "b9e74b1f1ff596756b9a9f5665368eadc4a63acac31858e0ef3eded4999297f9",
+      "hash": "48f549aa116295b561c7f39daee5be8ea555909984501acdfe1bbe0e915ff50e",
       "title": "LED AUX mod",
       "firmware_version": [
         "2025.12"
@@ -165,8 +165,24 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/2025.12/leds/LED_ColorMode.txt",
+      "hash": "cdd81afc6c622c2e3dc561485cc139c57dd3a16700f7e02d76aefc981c38e35f",
+      "title": "LED Simple Color Setting",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "leds",
+        "race"
+      ],
+      "author": "KozakFPV",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/leds/LED_RaceMode.txt",
-      "hash": "5c60c5f1584c37403d5d97028db023ff79095f6cb543a147457282022e647b02",
+      "hash": "e96fc017226f527f9c9e4302e5ffc96c894b019a66b5359698c08cd9d8615cc3",
       "title": "LED Race Profile",
       "firmware_version": [
         "2025.12"
