@@ -166,7 +166,7 @@
     },
     {
       "fullPath": "presets/2025.12/leds/LED_ColorMode.txt",
-      "hash": "cdd81afc6c622c2e3dc561485cc139c57dd3a16700f7e02d76aefc981c38e35f",
+      "hash": "233d6de1dc88e76c549d85a9077e438de704f7fecc2c6ba562f33d8dc1a306db",
       "title": "LED Simple Color Setting",
       "firmware_version": [
         "2025.12"
@@ -184,6 +184,22 @@
       "fullPath": "presets/2025.12/leds/LED_RaceMode.txt",
       "hash": "e96fc017226f527f9c9e4302e5ffc96c894b019a66b5359698c08cd9d8615cc3",
       "title": "LED Race Profile",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "leds",
+        "race"
+      ],
+      "author": "KozakFPV",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/leds/LED_VTX4.txt",
+      "hash": "9244342e01a9901b16c6db40dfb7d5a12614137f637e5416c79a9e29e836d56a",
+      "title": "LED with VTX channele Setting",
       "firmware_version": [
         "2025.12"
       ],

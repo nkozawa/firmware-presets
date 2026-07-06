@@ -9,7 +9,7 @@
 #$ DESCRIPTION: Please refer to the repository: 
 #$ DESCRIPTION: https://github.com/nkozawa/Led4Vtx
 
-#--- Set up Race mode ---
+#--- Set up Status mode ---
 
 feature LED_STRIP
 set ledstrip_profile = STATUS
